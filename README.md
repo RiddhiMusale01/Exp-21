@@ -3,8 +3,6 @@
 # Software Used
 Visual Studio Code
 # Theory
-
-CODES:
 1. Constant Time Complexity:[ O(1)]
 A function that takes constant time, regardless of the input size.
 
@@ -20,6 +18,7 @@ This occurs when the problem size is reduced by a constant factor at each step (
 5. Exponential Time Complexity: [O(2^n)]
 This complexity occurs in algorithms like recursive backtracking, such as calculating Fibonacci numbers recursively.
 
+CODES:
 
 1. Constant Time Complexity: O(1)
 
