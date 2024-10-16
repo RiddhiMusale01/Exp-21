@@ -20,9 +20,72 @@ This complexity occurs in algorithms like recursive backtracking, such as calcul
 
 CODES:
 
+1. Binary Search
+```#include <iostream>
+using namespace std;
+
+int binarySearch(int arr[], int size, int target) {
+    int low = 0, high = size - 1;
+    
+    while (low <= high) {
+        int mid = low + (high - low) / 2; 
+        if (arr[mid] == target)
+            return mid;
+        if (arr[mid] < target)
+            low = mid + 1;
+        else
+            high = mid - 1;
+    }
+    return -1;
+}
+int main() {
+    int arr[] = {2, 3, 4, 10, 40}; 
+    int size = sizeof(arr) / sizeof(arr[0]);
+    int target = 10;
+    int result = binarySearch(arr, size, target);
+    if (result != -1)
+        cout << "Element found at index " << result << endl;
+    else
+        cout << "Element not found in array" << endl;
+        
+    return 0;
+}
+```
+o/p:
+
+2. Linear Search
+```
+ #include <iostream>
+using namespace std;
+
+// Function for linear search
+int linearSearch(int arr[], int size, int target) {
+    for (int i = 0; i < size; i++) {
+        if (arr[i] == target) {
+            return i; // Return the index if target is found
+        }
+    }
+    return -1; // Return -1 if the target is not found
+}
+
+int main() {
+    int arr[] = {2, 3, 4, 10, 40}; // Unsorted or sorted array
+    int size = sizeof(arr) / sizeof(arr[0]);
+    int target = 10;
+    
+    int result = linearSearch(arr, size, target);
+    
+    if (result != -1)
+        cout << "Element found at index " << result << endl;
+    else
+        cout << "Element not found in array" << endl;
+        
+    return 0;
+}
+```
 
 
 # Conclusion
-These examples demonstrate different time complexities, from constant time (O(1)) to exponential time (O(2^n)). Constant time remains unaffected by input size, while linear (O(n)), quadratic (O(n²)), and logarithmic (O(log n)) grow at different rates. Logarithmic time, like in binary search, is efficient for large datasets, while exponential time becomes impractical for larger inputs. Understanding these complexities helps in creating efficient algorithms.
+
 
 
