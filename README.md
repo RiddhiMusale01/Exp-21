@@ -21,7 +21,8 @@ This complexity occurs in algorithms like recursive backtracking, such as calcul
 CODES:
 
 1. Binary Search
-```#include <iostream>
+```
+#include <iostream>
 using namespace std;
 
 int binarySearch(int arr[], int size, int target) {
