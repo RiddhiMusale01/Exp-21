@@ -3,15 +3,16 @@
 # Software Used
 Visual Studio Code
 # Theory
-Binary Search:
+1. Binary Search:
 
 Binary search is a search algorithm that determines the position of the desired value in a sorted array. It works by repeatedly dividing the search interval in half until the desired value is found or the interval is empty. The search interval is decreased in half by comparing the chosen element to the search space's middle value.
 To apply Binary Search algorithm, the data structure must be sorted.
 
-Linear Search:
+2. Linear Search:
 
 Linear search is a method for finding an element within a collection of elements. To find the desired element, linear search visits each element of the collection one by one in a sequential order. Linear search is also referred to as sequential search.
 
+Linear Search iterates over all of the elements in the array and checks to see if the current element is equal to the desire element. If we find an element that is equal to the desired element, we return the index of the current element. Otherwise, if no element matches the target element, return -1 because the element was not found.
 
 CODES:
 
