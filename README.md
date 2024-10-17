@@ -3,20 +3,15 @@
 # Software Used
 Visual Studio Code
 # Theory
-1. Constant Time Complexity:[ O(1)]
-A function that takes constant time, regardless of the input size.
+Binary Search:
 
-2. Linear Time Complexity: [O(n)]
-A function where time grows linearly with the size of the input.
+Binary search is a search algorithm that determines the position of the desired value in a sorted array. It works by repeatedly dividing the search interval in half until the desired value is found or the interval is empty. The search interval is decreased in half by comparing the chosen element to the search space's middle value.
+To apply Binary Search algorithm, the data structure must be sorted.
 
-3. Quadratic Time Complexity: [O(n²)]
-A function that involves a nested loop, where each loop runs n times.
+Linear Search:
 
-4. Logarithmic Time Complexity: [O(log n)]
-This occurs when the problem size is reduced by a constant factor at each step (like in binary search).
+Linear search is a method for finding an element within a collection of elements. To find the desired element, linear search visits each element of the collection one by one in a sequential order. Linear search is also referred to as sequential search.
 
-5. Exponential Time Complexity: [O(2^n)]
-This complexity occurs in algorithms like recursive backtracking, such as calculating Fibonacci numbers recursively.
 
 CODES:
 
@@ -93,6 +88,6 @@ o/p:
 
 
 # Conclusion
-
+Binary search is faster with a time complexity of O(log n) but only works on sorted arrays, making it ideal for large datasets. Linear search, though slower with O(n) complexity, works on both sorted and unsorted arrays, offering more flexibility for smaller or unsorted datasets.
 
 
