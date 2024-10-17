@@ -54,6 +54,9 @@ int main() {
 ```
 o/p:
 
+![image](https://github.com/user-attachments/assets/dc5dfbce-0900-48c7-84ee-7ec1fb13679d)
+
+
 2. Linear Search
 ```
  #include <iostream>
@@ -84,6 +87,9 @@ int main() {
     return 0;
 }
 ```
+o/p:
+
+![image](https://github.com/user-attachments/assets/dbab5d8b-644e-4774-a41d-28e9d2a52acb)
 
 
 # Conclusion
